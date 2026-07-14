@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+.heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+@layer utilities {
+  .bg-grid-pattern {
+    /* create a subtle 55px grid pattern */
+    background-size: 50px 50px;
+    background-image:
+    linear-gradient(to right, rgba(0, 0, 0 ,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0 ,0.03) 1px, transparent 1px);
+  }
+}
+ 
