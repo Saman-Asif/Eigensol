@@ -14,7 +14,7 @@ const Home = () => {
                 <div
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
-                    className="relative w-full min-h-screen flex flex-col overflow-hidden cursor-none"
+                    className="relative w-full min-h-screen flex flex-col overflow-hidden"
                 >
                     {/* The Grid Background & Custom Cursor live here, covering everything inside */}
                     <GridBackground />
