@@ -91,9 +91,6 @@ const Navbar = () => {
                             {item.name}
                         </Link>
                         ))}
-                         <Link className=' text-gray-300 text-sm space-x-2 items-center flex justify-center' to='/startproject'><button className='bg-[#E85D2C]/80 lg:flex hidden hover:bg-[#E85D2C] text-white px-8 py-3 rounded-full'>
-                        Start a Project
-                    </button></Link>
                     {/* 2. MOBILE ONLY BUTTON (Pushed down to the bottom of the drawer panel) */}
         <div className="w-full mt-auto sm:hidden">
           <Link
@@ -103,9 +100,13 @@ const Navbar = () => {
           >
             Start a Project
           </Link>
+           
         </div>
-                    
-                        </ul>
+</ul>
+        <div>       <Link className=' text-gray-300 text-sm space-x-2 items-center flex justify-center' to='/startproject'><button className='bg-[#E85D2C]/80 lg:flex hidden hover:bg-[#E85D2C] text-white px-8 py-3 rounded-full'>
+                        Start a Project
+                    </button></Link> 
+                    </div>
                 </div>
         </>
     )
