@@ -1,6 +1,11 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
 import ServicePage from './ServicePage'
+import ServicePage2 from './ServicePage2'
+import ServicePage3 from './ServicePage3'
+import ServicePage4 from './ServicePage4'
+import ServicePage5 from './ServicePage5'
+import ContactPage from './ContactPage'
 
 const Services = () => {
   return (
@@ -15,6 +20,11 @@ const Services = () => {
             <ServiceCard/>
       </div>
       <ServicePage/>
+      <ServicePage2/>
+      <ServicePage3/>
+      <ServicePage4/>
+      <ServicePage5/>
+      <ContactPage/>
     </>
   )
 }
