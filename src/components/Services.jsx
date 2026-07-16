@@ -6,6 +6,8 @@ import ServicePage3 from './ServicePage3'
 import ServicePage4 from './ServicePage4'
 import ServicePage5 from './ServicePage5'
 import ContactPage from './ContactPage'
+import DirectCallBox from './DirectCallBox'
+import FollowBox from './FollowBox'
 
 const Services = () => {
   return (
@@ -25,6 +27,8 @@ const Services = () => {
       <ServicePage4/>
       <ServicePage5/>
       <ContactPage/>
+      <DirectCallBox/>
+      <FollowBox/>
     </>
   )
 }
