@@ -8,6 +8,7 @@ import ServicePage5 from './ServicePage5'
 import ContactPage from './ContactPage'
 import DirectCallBox from './DirectCallBox'
 import FollowBox from './FollowBox'
+import Faq from './Faq'
 
 const Services = () => {
   return (
@@ -29,6 +30,7 @@ const Services = () => {
       <ContactPage/>
       <DirectCallBox/>
       <FollowBox/>
+      <Faq/>
     </>
   )
 }
